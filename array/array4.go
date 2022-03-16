@@ -16,3 +16,5 @@ func main() {
 	// TODO: answer here
 	fmt.Println(array[len(array)-1])
 }
+
+//cap len array
