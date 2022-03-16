@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Disini teman teman akan mencoba untuk
 // melakukan penambahan data pada slice.
@@ -10,12 +12,11 @@ import "fmt"
 // Contoh [Zein Fahrozi]
 // Outputkan jawabannya ya pastikan cap dan len nya adalah 2
 func main() {
-	var slice = []string{"Syifa","Nur Aini"}
-	var aSlice = slice[:2]
-	fmt.Println(aSlice)
-	fmt.Println(len(aSlice),cap(aSlice))
-	
-	
-
 	// TODO: answer here
+	var sliceName = []string{}
+	sliceName = append(sliceName, "syifa", "Nur Aini")
+
+	fmt.Println(len(sliceName), cap(sliceName))
 }
+
+//slice basic

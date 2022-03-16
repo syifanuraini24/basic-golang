@@ -7,15 +7,17 @@ import "fmt"
 // dan "Olleh" menjadi "Aurelius"
 func main() {
 	slice := []string{"Hello", "World"}
-
-	slice = append(slice,"Olleh")
-
-	fmt.Println(len(slice),cap(slice))
+	slice = append(slice, "Olleh")
+	fmt.Println(len(slice), cap(slice))
 	fmt.Println(slice)
-	// Dibawah ini adalah jawaban nomor 3 silahkan kalian isi
+	// Dibawah ini adalah jawaban nomor 2: silahkan kalian copy paste dari jawaban nomor 2
 	// TODO: answer here
 
+	// Dibawah ini adalah jawaban nomor 3 silahkan kalian isi
+	// TODO: answer here
 	slice[1] = "Marcus"
-	slice[2] = "Aurilius"
+	slice[2] = "Aurelius"
 	fmt.Println(slice)
 }
+
+//write slice

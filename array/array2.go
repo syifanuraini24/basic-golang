@@ -8,3 +8,5 @@ func main() {
 	fmt.Println(array2[0])
 	fmt.Println(array2[4])
 }
+
+//read array

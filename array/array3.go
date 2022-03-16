@@ -15,3 +15,5 @@ func main() {
 	array3[4] = "a"
 	fmt.Println(array3) // TODO: answer here
 }
+
+//write array
